@@ -1,0 +1,26 @@
+.profile {
+  font-family: "Montserrat", sans-serif;
+}
+
+.card-header {
+  font-size: 1rem !important;
+}
+
+.card-title {
+  font-size: 1rem !important;
+}
+
+.btn-profile {
+  margin-top: -0.15rem;
+}
+
+.btn {
+  margin: 1rem 0 1rem 0;
+}
+.card-desc {
+  padding-top: 1rem;
+}
+
+.card-body {
+  padding-bottom: 10px !important;
+}

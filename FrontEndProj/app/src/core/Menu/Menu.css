@@ -1,0 +1,82 @@
+.menu {
+  font-family: "Montserrat", sans-serif;
+}
+
+.options {
+  background-color: #fff;
+  position: absolute;
+  right: 30px;
+  width: 45px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  font-size: 22px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.option-name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.8rem;
+}
+
+.option-name-div {
+  width: 250px;
+  background-color: #fff;
+  position: absolute;
+  top: 40px;
+  right: -20px;
+  border-radius: 2px;
+  display: none;
+}
+
+.option-name-div ul {
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  padding: 0px !important;
+  font-size: 1.1rem;
+}
+
+.option-name-div ul li {
+  width: 250px !important;
+  height: 60px !important;
+  padding: 0;
+}
+
+.link {
+  width: 250px !important;
+  height: 60px !important;
+  display: block !important;
+}
+
+.span-logout {
+  width: 250px !important;
+  display: block !important;
+  height: 60px !important;
+  padding-top: 20px;
+  text-align: left;
+  padding-left: 10px;
+  color: #838383;
+}
+
+.option-name-div ul li:hover .span-logout {
+  color: #fff !important;
+}
+
+.option-name-div ul li:hover {
+  background-color: #32408f;
+  color: #fff;
+  text-decoration: none !important;
+}
+
+.link:hover {
+  text-decoration: none !important;
+}
+
+.options:hover .option-name-div {
+  display: block;
+}

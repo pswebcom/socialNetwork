@@ -1,0 +1,13 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap"); */
+
+.users {
+  font-family: "Montserrat", sans-serif;
+}
+
+.card-title {
+  font-weight: bold !important;
+}
+.btn {
+  background-color: #32408f;
+  color: #fff;
+}
